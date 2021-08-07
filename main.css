@@ -82,6 +82,10 @@ img {
   cursor: e-resize;
 }
 
+.progress:hover {
+  cursor: progress;
+}
+
 
 /***** LARGER THAN EXTRA SMALL DEVICES *****/
 @media (min-width: 768px) {
