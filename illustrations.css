@@ -1,0 +1,171 @@
+/* introduction */
+.squares {
+  position: absolute;
+  border: 0.25vw solid #000;
+  aspect-ratio: 3 / 4;
+}
+
+/* H */
+.square-1 {
+  top: calc(3vw + 2vw);
+  left: 3vw;
+  width: 2vw;
+  height: 10vw;
+  background-color: #42b77d;
+}
+
+.square-2 {
+  top: calc(3vw + 8.25vw);
+  left: calc(3vw + 1.25vw);
+  width: 1.5vw;
+  height: 3vw;
+  background-color: #ac218b;
+}
+
+.square-3 {
+  top: calc(3vw + 4vw);
+  left: calc(3vw + 1vw);
+  width: 6vw;
+  height: 3.5vw;
+  background-color: #ae4c49;
+}
+
+.square-4 {
+  top: 3vw;
+  left: calc(3vw + 6vw);
+  width: 3.5vw;
+  height: 11vw;
+  background-color: #c4c4c4;
+}
+
+/* E */
+.square-5 {
+  top: calc(9vw + 2vw);
+  left: 15vw;
+  width: 2.5vw;
+  height: 10vw;
+  background-color: #225fa1;
+}
+
+.square-6 {
+  top: calc(9vw + 1vw);
+  left: calc(15vw + 2vw);
+  width: 5vw;
+  height: 3vw;
+  background-color: #545454;
+}
+
+.square-7 {
+  top: calc(9vw + 5vw);
+  left: calc(15vw + 1.5vw);
+  width: 7vw;
+  height: 4vw;
+  background-color: #faaa46;
+}
+
+.square-8 {
+  top: calc(9vw + 11.5vw);
+  left: calc(15vw + 2vw);
+  width: 5.5vw;
+  height: 2vw;
+  background-color: #d3d3d3;
+}
+
+/* L */
+.square-9 {
+  top: calc(19vw + 1vw);
+  left: calc(3vw + 1.5vw);
+  width: 3.5vw;
+  height: 8vw;
+  background-color: #d05aa1;
+}
+
+.square-10 {
+  top: calc(19vw + 7vw);
+  left: 3vw;
+  width: 4vw;
+  height: 6vw;
+  background-color: #b4daf4;
+}
+
+.square-11 {
+  top: calc(19vw + 10vw);
+  left: calc(3vw + 3vw);
+  width: 5.5vw;
+  height: 2vw;
+  background-color: #743c97;
+}
+
+/* L */
+.square-12 {
+  top: calc(28vw + 1vw);
+  left: 14.5vw;
+  width: 2.5vw;
+  height: 10vw;
+  background-color: #ae2524;
+}
+
+.square-13 {
+  top: 28vw;
+  left: calc(14.5vw + 1.5vw);
+  width: 2vw;
+  height: 4vw;
+  background-color: #5c78bb;
+}
+
+.square-14 {
+  top: calc(28vw + 9.5vw);
+  left: 13.5vw;
+  width: 6vw;
+  height: 4vw;
+  background-color: #64bc4d;
+}
+
+.square-15 {
+  top: calc(28vw + 11.5vw);
+  left: calc(14.5vw + 3.5vw);
+  width: 4vw;
+  height: 2.5vw;
+  background-color: #ebeba3;
+}
+
+/* O */
+.square-16 {
+  top: calc(24vw + 1vw);
+  left: calc(22.5vw + 1vw);
+  width: 6vw;
+  height: 2.5vw;
+  background-color: #e0eed0;
+}
+
+.square-17 {
+  top: calc(24vw + 2vw);
+  left: 22.5vw;
+  width: 3vw;
+  height: 8vw;
+  background-color: #8a8b8b;
+}
+
+.square-18 {
+  top: calc(24vw + 9vw);
+  left: calc(22.5vw + 2vw);
+  width: 6vw;
+  height: 3vw;
+  background-color: #b24856;
+}
+
+.square-19 {
+  top: calc(24vw + 5vw);
+  left: calc(22.5vw + 6.75vw);
+  width: 2vw;
+  height: 5vw;
+  background-color: #eeeb70;
+}
+
+.square-20 {
+  top: calc(24vw + 1.5vw);
+  left: calc(22.5vw + 6vw);
+  width: 3.5vw;
+  height: 5.5vw;
+  background-color: #4bbd93;
+}
