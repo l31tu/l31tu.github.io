@@ -173,6 +173,19 @@ div.slides img:first-child {
   cursor: e-resize;
 }
 
+/* alt ratios */
+.twentyonetonine {
+  aspect-ratio: 21 / 9 !important;
+}
+
+.sixteentonine {
+  aspect-ratio: 16 / 9 !important;
+}
+
+.onepointsixsix {
+  aspect-ratio: 1.66 / 1 !important;
+}
+
 /* RESPONSIVE */
 /* extrawide */
 @media (min-width: 1800px) {
