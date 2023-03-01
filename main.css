@@ -100,6 +100,11 @@ a {
   color: yellow;
 }
 
+::selection {
+  color: black;
+  background: white;
+}
+
 /*** RESPONSIVE ***/
 @media (max-width: 1500px) {
 
