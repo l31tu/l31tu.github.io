@@ -15,6 +15,14 @@ document.addEventListener("mousedown", function () {
   growCursor()
 })
 
+document.addEventListener("touchstart", function () {
+  growCursor()
+})
+
 document.addEventListener("mouseup", function () {
+  shrinkCursor()
+})
+
+document.addEventListener("touchend", function () {
   shrinkCursor()
 })
