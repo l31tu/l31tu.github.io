@@ -104,6 +104,10 @@ a {
   color: yellow;
 }
 
+.no-break {
+  white-space: nowrap;
+}
+
 ::selection {
   color: black;
   background: white;
@@ -111,7 +115,7 @@ a {
 
 /*** RESPONSIVE ***/
 @media (max-width: 1500px) {
-
+  
   div.instruction {
     font-size: 6vw;
     user-select: none;
@@ -119,6 +123,9 @@ a {
 
   div.cursor.is-down {
     font-size: 6vw;
+    top: 50%;
+    left: 30%;
+    transform: translate(-20%, -50%);
   }
 
   p.desktop {
@@ -127,6 +134,10 @@ a {
 
   p.mobile {
     display: block;
+  }
+
+  .force-break-mobile {
+    word-break: break-all;
   }
 
 }
