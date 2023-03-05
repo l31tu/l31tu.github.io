@@ -96,6 +96,10 @@ div.cursor.is-down {
     font-size: 1.75vw;
 }
 
+p.mobile {
+  display: none;
+}
+
 a {
   color: yellow;
 }
@@ -107,5 +111,22 @@ a {
 
 /*** RESPONSIVE ***/
 @media (max-width: 1500px) {
+
+  div.instruction {
+    font-size: 3vw;
+    user-select: none;
+  }
+
+  div.cursor.is-down {
+    font-size: 3vw;
+  }
+
+  p.desktop {
+    display: none;
+  }
+
+  p.mobile {
+    display: block;
+  }
 
 }
