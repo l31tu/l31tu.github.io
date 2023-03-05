@@ -113,12 +113,12 @@ a {
 @media (max-width: 1500px) {
 
   div.instruction {
-    font-size: 3vw;
+    font-size: 6vw;
     user-select: none;
   }
 
   div.cursor.is-down {
-    font-size: 3vw;
+    font-size: 6vw;
   }
 
   p.desktop {
