@@ -66,9 +66,9 @@ input, textarea, select {
 /*** STYLES ***/
 body {
 	font-family: Serif;
-	line-height: 1;
+	line-height: 1.1;
   background-color: black;
-  color: cyan;
+  color: black;
 }
 
 div.instruction,
@@ -96,12 +96,16 @@ div.cursor.is-down {
     font-size: 1.75vw;
 }
 
+span.highlight {
+  background-color: white;
+}
+
 p.mobile {
   display: none;
 }
 
 a {
-  color: yellow;
+  color: black;
 }
 
 .no-break {
@@ -109,8 +113,8 @@ a {
 }
 
 ::selection {
-  color: black;
-  background: white;
+  color: white;
+  background: black;
 }
 
 /*** RESPONSIVE ***/
