@@ -118,11 +118,11 @@ a {
 }
 
 /*** RESPONSIVE ***/
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   
   div.instruction {
     font-size: 6vw;
-    user-select: none;
+    user-select: none !important;
   }
 
   div.cursor.is-down {
