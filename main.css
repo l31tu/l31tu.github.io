@@ -1,17 +1,85 @@
 /*** BASE ***/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -20,22 +88,35 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 body {
   line-height: 1;
 }
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
   content: none;
 }
 table {
@@ -43,12 +124,15 @@ table {
   border-spacing: 0;
 }
 
-img, iframe {
+img,
+iframe {
   vertical-align: bottom;
   max-width: 100%;
 }
 
-input, textarea, select {
+input,
+textarea,
+select {
   font: inherit;
 }
 
@@ -61,12 +145,15 @@ input, textarea, select {
   text-rendering: optimizeLegibility;
 }
 
-
-
 /*** STYLES ***/
+@font-face {
+  font-family: Rep-Tee-Rom-Cas;
+  src: url(Rep-Tee-Rom-Cas_Condensed.woff);
+}
+
 body {
-	font-family: Serif;
-	line-height: 1.15;
+  font-family: Rep-Tee-Rom-Cas, Serif;
+  line-height: 1.15;
   background-color: black;
   color: black;
 }
@@ -81,11 +168,11 @@ div.cursor {
 }
 
 div.instruction {
-	font-size: 1.75vw;
+  font-size: 1.75vw;
 }
 
 div.cursor {
-	font-size: 0vw;
+  font-size: 0vw;
 }
 
 div.instruction.shrink {
@@ -93,7 +180,7 @@ div.instruction.shrink {
 }
 
 div.cursor.is-down {
-    font-size: 1.75vw;
+  font-size: 1.75vw;
 }
 
 span.highlight {
@@ -108,7 +195,7 @@ a {
   color: black;
 }
 
-.no-break {
+.no-wrap {
   white-space: nowrap;
 }
 
@@ -119,7 +206,6 @@ a {
 
 /*** RESPONSIVE ***/
 @media (max-width: 900px) {
-  
   div.instruction {
     font-size: 6vw;
     user-select: none !important;
@@ -143,5 +229,4 @@ a {
   .force-break-mobile {
     word-break: break-all;
   }
-
 }
