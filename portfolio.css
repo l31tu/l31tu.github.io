@@ -163,6 +163,8 @@ html {
 body {
   font-family: Ak-Gro-Uni-Light, sans-serif;
   color: #000;
+
+  overflow: hidden; /* prevents scroll navigation */
 }
 
 h1,
